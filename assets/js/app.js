@@ -11,7 +11,7 @@ function luhn() {
     }
   } 
   var sum = eval(id.join('+'));
-  if (sum % 10 === 0 && id.length == 16) {
+  if (sum % 10 === 0 && id.length === 16) {
     alert('Tu número de tarjeta es válido');
   } else {
     alert('Favor revisa nuevamente tu número de tarjeta, no es válido');
