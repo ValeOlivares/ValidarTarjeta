@@ -1,9 +1,9 @@
-Pseudocódigo
+Pseudo código
 
-1.- Se pide por un prompt que el usuario ingrese su num de tarjeta.
-2.- Por medio de un While, si el largo de los caracteres es = a 0, el prompt se seguira ejecutando.
-3.- Se crea variable separar.
-4.- Se crea variable invertir con reverse para modificar el orden de los numeros.
-5.- Se crea un for para recorrer variable invertir.
-6.- Se crea un if que compruebe que el digito está en un index par,
-    se crea un if dentro del if anterior para multiplicar los numeros con index par * 2
+- Usuario ingresa en el imput el número de tarjeta.
+- Se pasa el string a una array, se invierte y se convierte a un valor númerico
+- Todos los números pares se multiplican por 2
+- Si la multiplicación por 2 da como reultado un número de 2 digitos, se suman ambos para generar un número de 1 digito.
+- Se suman todos los valores y se comprueba que el modulo 10 de la suma sea igual a cero.
+- Si el modulo 10 es igual a cero y hay 16 números ingresandos, se envia un alert informando que el número de la tarjeta es válido.
+- Si el modulo de 10 no es cero o el número tiene mas o menos de 16 números ingresados, se envia un alert informando que el número de tarjeta es invalido.
